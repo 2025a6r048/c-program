@@ -1,16 +1,13 @@
 include<stdio.h>
 int main(){
-    int a,b,sum,sub,multip,remainder;
-    printf("enter number a: ");
-    scanf("%d", &a);
-    printf("enter number b: ");
-    scanf("%d", &b);
-    sum=a+b;
-    printf("sum=%d",sum);
-    sub=a-b;
-    printf("\n sub=%d",sub);
-    multip=a*b;
-    printf("\n multip=%d",multip);
-    remainder=a/b;
-    printf("\n remainder=%d",remainder);
+    int x,y,add,sub,multiply,remainder;
+    printf("enter the value of x: ");
+    scanf("%d", &x);
+    printf("enter the value of y: ");
+    scanf("%d", &y);
+    add=x+y;
+   sub=x-y;
+   multiply=x*Y;
+remainder=x%y;
+printf("add=%d\n subtract=%d\n multiply=%d\n remainder=%d", add,sub,multiply,remainder);
 return 0;}
