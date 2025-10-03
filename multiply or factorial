@@ -1,0 +1,8 @@
+nt main(){
+  int i,n,multiply=1;
+  printf("enter value of n ");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++){
+multiply*=i;}
+ printf("multiply=%d",multiply);
+ return 0;}
