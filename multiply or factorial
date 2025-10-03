@@ -1,4 +1,4 @@
-nt main(){
+int main(){
   int i,n,multiply=1;
   printf("enter value of n ");
   scanf("%d",&n);
